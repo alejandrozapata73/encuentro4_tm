@@ -2,12 +2,7 @@
     margin: 0px;
     padding: 0px;
 }
-#contenedor-padre {
 
-    width: 100%;
-    height: 800px;
-    background-color: darkkhaki;
-}
 
 /* div {
 
@@ -27,8 +22,20 @@
     color: white;
 }
 
+#contenedor-padre {
+
+    width: 100%;
+    height: 400px;
+    background-color: darkkhaki;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
 #caja1 {
     background-color: red;
+    align-self: flex-start;
     
 }
 
@@ -36,8 +43,8 @@
 #caja2 {
     background-color: white;
     color: black;
-   
-   
+    align-self: center;
+    
 }
 
 #caja3 {
